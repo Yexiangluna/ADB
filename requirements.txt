@@ -15,6 +15,9 @@ coloredlogs>=15.0
 # 可选：数据验证
 jsonschema>=4.0.0
 
+# 构建依赖
+pyinstaller>=5.0
+
 # 开发依赖（可选）
 # pytest>=7.0.0
 # pytest-cov>=4.0.0
