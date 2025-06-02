@@ -26,7 +26,7 @@ ADB是一个轻量级的基于API的数据库管理系统，专为小型应用�
 
 ```bash
 # 1. 克隆或下载项目
-git clone <repository-url>
+git clone https://github.com/Yexiangluna/ADB.git
 cd ADB
 
 # 2. 运行设置脚本
