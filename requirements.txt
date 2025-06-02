@@ -1,0 +1,22 @@
+# ADB 项目依赖文件
+
+# Web API 框架
+flask>=2.0.0
+
+# 可选：环境变量管理
+python-dotenv>=0.19.0
+
+# 可选：性能监控
+memory-profiler>=0.60.0
+
+# 可选：日志增强
+coloredlogs>=15.0
+
+# 可选：数据验证
+jsonschema>=4.0.0
+
+# 开发依赖（可选）
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=22.0.0
+# flake8>=4.0.0

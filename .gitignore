@@ -1,0 +1,65 @@
+# ADB 项目 Git 忽略文件
+
+# 环境配置文件（包含敏感信息）
+.env
+.env.local
+.env.production
+
+# 数据库文件
+*.json
+!config.json
+!schema.json
+data/
+backups/
+
+# 日志文件
+logs/
+*.log
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试文件
+.coverage
+.pytest_cache/
+htmlcov/
+
+# 临时文件
+*.tmp
+*.temp
+temp/
